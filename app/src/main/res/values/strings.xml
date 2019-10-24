@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Aether</string>
+    <string name="title_activity_authentication">AuthenticationActivity</string>
+
+
+    <!--Auth-->
+    <string name="number_hint">01xxxxxxxxx</string>
+    <string name="your_mobile_number">Your Mobile Number</string>
+    <string name="we_will_send_you_an_otp">We will send you an OTP to verify its you.\n</string>
+    <string name="join">JOIN</string>
+
+    <string name="verification_code">Verification Code</string>
+    <string name="verification_code_sent">Please type the verification code \nsent to your phone</string>
+    <string name="start">START</string>
+    <string name="signin">Sign in</string>
+    <string name="create_new_account">CREATE NEW ACCOUNT</string>
+    <string name="sign_in_with_social_network">SIGN IN with social network</string>
+    <string name="or">OR</string>
+
+    <!--API-->
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+
+</resources>
