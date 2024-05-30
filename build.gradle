@@ -3,11 +3,11 @@
 buildscript {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
 
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.1'
+        classpath 'com.android.tools.build:gradle:7.0.4' // update this to the latest version
         //noinspection GradleDependency
         classpath 'com.google.gms:google-services:4.2.0'
 
@@ -19,7 +19,7 @@ buildscript {
 allprojects {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
 
     }
 }

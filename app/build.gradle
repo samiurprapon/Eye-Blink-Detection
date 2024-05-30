@@ -29,7 +29,7 @@ dependencies {
 
 
 //    Google Vision API
-    implementation 'com.google.android.gms:play-services-vision:19.0.0'
+    implementation 'com.google.mlkit:face-detection:16.0.1'
 
 //    collect permission on runtime
     implementation 'com.karumi:dexter:4.2.0'

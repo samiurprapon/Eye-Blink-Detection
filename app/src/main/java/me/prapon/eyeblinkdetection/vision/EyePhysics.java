@@ -39,7 +39,7 @@ public class EyePhysics {
     // The friction and gravity values below are set relative to a specific time period.  This
     // allows the simulation to run at the same rate, regardless of whether it is running on a slow
     // or fast device or if there are temporary performance variations on the device.
-    private final long TIME_PERIOD_MS = 1000;
+    private final long TIME_PERIOD_MS = 100;
 
     private final float FRICTION = 2.2f;
     private final float GRAVITY = 0.5f;

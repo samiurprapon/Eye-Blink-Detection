@@ -221,8 +221,8 @@ public final class EyesActivity extends AppCompatActivity {
         FaceDetector detector = new FaceDetector.Builder(context)
                 .setLandmarkType(FaceDetector.ALL_LANDMARKS)
                 .setClassificationType(FaceDetector.ALL_CLASSIFICATIONS)
+                .setMode(FaceDetector.ACCURATE_MODE)
                 .setTrackingEnabled(true)
-                .setMode(FaceDetector.FAST_MODE)
                 .setProminentFaceOnly(mIsFrontFacing)
                 .setMinFaceSize(mIsFrontFacing ? 0.35f : 0.15f)
                 .build();

@@ -24,7 +24,7 @@ import android.graphics.PointF;
  * Graphics class for rendering Googly Eyes on a graphic overlay given the current eye positions.
  */
 class EyesGraphics extends GraphicOverlay.Graphic {
-    private static final float EYE_RADIUS_PROPORTION = 0.45f;
+    private static final float EYE_RADIUS_PROPORTION = 0.40f;
     private static final float IRIS_RADIUS_PROPORTION = EYE_RADIUS_PROPORTION / 2.0f;
 
     private Paint mEyeWhitesPaint;
@@ -63,7 +63,7 @@ class EyesGraphics extends GraphicOverlay.Graphic {
         mEyeIrisPaint.setStrokeWidth(2);
 
         mEyeOutlinePaint = new Paint();
-        mEyeOutlinePaint.setColor(Color.BLACK);
+        mEyeOutlinePaint.setColor(Color.GREEN);
         mEyeOutlinePaint.setStyle(Paint.Style.STROKE);
         mEyeOutlinePaint.setStrokeWidth(3);
     }
